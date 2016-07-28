@@ -34,4 +34,7 @@ curl --create-dirs -so ~/Library/Preferences/WebIde10/filetypes/Dockerfile.xml h
 
 #### Windows
 Download `https://raw.githubusercontent.com/masgari/docker-intellij-idea/master/Dockerfile.xml` and copy it to:
-`<User home>\.WebIdeXX\config\filetypes\` folder
+`%userhome%\.IntelliJIdea2016.2\config\filetypes\`
+If you are using PyCharm, PHPStorm, or another JetBrains product, replace `.IntellJIdea2016.2` with your product's folder.
+You may need to create the "filetypes" folder if it does not already exist.
+
